@@ -1,4 +1,9 @@
 .cover__background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 755px;
   height: 100%;
   background-image: linear-gradient(rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3)), url(../../../images/cover-trains.jpg);
   background-size: cover;
@@ -10,19 +15,19 @@
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .cover {
+  .cover__background {
     min-height: 640px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .cover {
+  .cover__background {
     min-height: 480px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .cover {
+  .cover__background {
     min-height: 200px;
   }
 }
