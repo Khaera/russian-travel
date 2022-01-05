@@ -6,6 +6,7 @@
   font-style: normal;
   color: #FFFFFF;
   text-decoration: none;
+  padding-top: 18px;
 }
 
 .header__lang-link:last-of-type {
@@ -21,5 +22,6 @@
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;
+    padding-top: 14px;
   }
 }
